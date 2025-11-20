@@ -1,0 +1,184 @@
+---
+title: "Interactive Business Analytics Using R and Shiny: The Radiant Package"
+
+author:
+  - name: "Keval Desa (matriculation no.400974494)"
+    email: "kevaldesai0111@gmail.com"
+    affiliations: Fresenius University of Applied Science
+    corresponding: true
+
+abstract: |
+  Radiant is a free tool that helps people analyze business data without needing to know computer programming. It works through a web browser and runs on R, which is a popular software for statistics and data analysis. The main advantage of Radiant is that users can simply click buttons and menus to do their analysis, similar to using Excel, but it also creates the actual programming code automatically in the background. This means beginners can learn how real coding works while doing practical work with their data. Radiant has different sections for different tasks - one section helps upload and organize data, another runs basic statistics like averages and correlations, and another builds prediction models to forecast things like sales or customer behavior. The tool is particularly useful for business tasks such as understanding different customer groups, analyzing customer patterns, and predicting outcomes. Most demonstrations use a practice dataset about diamond prices to show how the tool works for exploring data and running analysis. While Radiant makes data analysis much easier for beginners and teaches programming skills along the way, it does have some drawbacks - it offers less control than writing code directly and can be slow with very large amounts of data. Overall, Radiant serves as a helpful stepping stone between simple spreadsheet tools and advanced programming, making professional data analysis accessible to people who are just starting out.
+
+
+floatsintext: true
+
+format:
+  apaquarto-pdf:
+    documentmode: stu
+    course: Data Analysis for Decision-Making  (WS 2025/26)
+    professor: Prof. Dr. Stephan Huber
+    duedate: '2025-11-26'
+    keep-tex: false
+    fig-align: "left"
+    include-in-header:
+      text: |
+        \linespread{1.5} % 1.5 line spacing
+    number-sections: true
+  apaquarto-html:
+    toc: true
+    embed-resources: true
+
+a4paper: true
+#bibliography: literatur.bib
+csl: _extensions/wjschne/apaquarto/apa.csl
+reference-location: document
+---
+
+# Introduction
+
+## What Is Shiny?
+
+Shiny is an open-source R package that provides a framework for creating **interactive web applications** directly from R code. It allows users to manipulate data, run analyses, and view results dynamically in a browser.
+
+## What Is Radiant?
+
+"Radiant is a web-based, open-source platform for business analytics and data science. It's built on the R programming language but is designed to be used through a **point-and-click interface,** making powerful statistical analysis accessible to people who may not know how to code."
+
+### A simple analogy
+
+Radiant is like a **menu-driven restaurant**:
+
+-   You choose items (analysis options)
+-   Radiant (the kitchen) cooks them using R
+-   You get the results without writing code\
+
+# Why Use Radiant for Business Analytics?
+
+## Benefits
+
+-   Lowers the barrier to entry for R\
+-   Quick exploratory analysis\
+-   Interactive visualization tools\
+-   Automatically displays R code\
+-   Comprehensive set of analytics tools
+
+## Use Cases
+
+-   Market segmentation\
+-   Customer analytics & churn prediction\
+-   Regression modeling\
+-   A/B testing
+
+# Key Features and Modules
+
+## 1. Data Preparation (Data Section)
+
+-   Import datasets\
+-   Rename variables\
+-   Change data types\
+-   Filter observations\
+-   Create new variables\
+-   Merge datasets
+
+## 2. Model Building (Model Section)
+
+-   Linear Regression
+-   Logistic Regression
+-   Decision Trees
+-   Neural Networks
+
+## 3. Basics Section (Foundational Statistics)
+
+-   Cross-tabulation\
+-   Correlation analysis\
+-   Compare means\
+-   Single mean tests
+
+## 4. Additional Specialized Modules
+
+-   Design of Experiments (DoE)\
+-   Factor analysis & cluster analysis\
+-   Mapping and spatial analysis
+
+# Installing and Launching Radiant
+
+**(1) install Radiant**
+
+install.packages("radiant")
+
+**(2) Load Radiant**
+
+library(radiant)
+
+**(3) Launch Radiant**
+
+radiant::radiant()
+
+# Advantages and Limitations
+
+## Advantages
+
+-   Very user-friendly
+
+-   Helps users learn R through code generation
+
+-   Ensures reproducible workflows
+
+-   Provides a complete suite of business analytics tools
+
+-   Actively maintained and updated
+
+## Limitations
+
+-   Less flexible than writing pure R code
+
+-   Requires understanding of statistical concepts
+
+-   Slow with very large datasets
+
+-   Requires full R installation
+
+-   Limited to predefined workflows
+
+#  Conclusion
+
+In conclusion, Radiant is a great tool for people who want to do business data analysis without knowing how to code. It makes it easy to explore, visualize, and predict data while also showing the R code, so you can learn programming along the way. Even though it can be slow with very large datasets and doesn’t allow full customization like pure R, it is still very helpful for beginners. Overall, Radiant makes analyzing data easier and helps users make smart business decisions.
+
+# Additional Resources
+
+-   **Radiant Documentation**\
+    <https://radiant-rstats.github.io/docs/>
+
+-   **Radiant GitHub Repository**\
+    <https://github.com/radiant-rstats/radiant>
+
+-   **Radiant Video Tutorial**\
+    <https://youtu.be/83RGcVOU7rs?si=Ly6hwTW2Zru2KG-I>
+
+-   **Shiny Documentation**\
+    <https://shiny.rstudio.com/>
+
+    # Affidavit
+
+    I hereby affirm that this submitted paper was authored unaided and solely by me. Additionally, no other sources than those in the reference list were used. Parts of this paper, including tables and figures, that have been taken either verbatim or analogously from other works have in each case been properly cited with regard to their origin and authorship. This paper, either in parts or in its entirety, be it in the same or similar form, has not been submitted to any other examination board and has not been published.
+
+    I acknowledge that the university may use plagiarism detection software to check my thesis. I agree to cooperate with any investigation of suspected plagiarism and to provide any additional information or evidence requested by the university.
+
+    ## Checklist: PRESENTATION AND HANDOUT GUIDELINES
+
+    -   [x] The handout contains 3–5 pages of text.\
+    -   [x] The submission contains the Quarto file of the handout.\
+    -   [x] The submission contains the Quarto file of the presentation.\
+    -   [x] The submission contains the HTML file of the handout.\
+    -   [x] The submission contains the HTML file of the presentation.\
+    -   [x] The submission contains the PDF file of the handout.\
+    -   [x] The submission contains the PDF file of the presentation.\
+    -   [x] The title page of the presentation and the handout contain personal details (name, email, matriculation number).\
+    -   [x] The filled out Affidavit.\
+    -   [x] The handout contains a bibliography, created using BibTeX with an APA citation style.\
+    -   [x] Either the handout or the presentation contains R code that proves expertise in coding.\
+    -   [x] The link to the presentation and the handout published on GitHub.\
+    -   [x] In group work, each student’s contribution is clearly defined, and individual performance can be assessed using specified sections, page numbers, or other objective criteria.
+
+    KEVAL DESAI, 26/NOV/2025, Cologne

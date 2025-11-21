@@ -37,7 +37,7 @@ Example analogy: "Menu-driven restaurant – pick from menu, R does the cooking"
 
 ## R Code to Install and Launch
 
--   options(repos = c( RSM = "[https://radiant-rstats.github.io/minicran",](https://radiant-rstats.github.io/minicran",) CRAN = "[https://cloud.r-project.org"](https://cloud.r-project.org") ))
+-   options(repos = c( RSM = "[https://radiant-rstats.github.io/minicran",](https://radiant-rstats.github.io/minicran%22,) CRAN = "[https://cloud.r-project.org"](https://cloud.r-project.org%22) ))
 
 -   install.packages("radiant")
 

@@ -2,7 +2,7 @@
 title: "Interactive Business Analytics Using R and Shiny: The Radiant Package"
 
 author:
-  - name: "Keval Desa (matriculation no.400974494)"
+  - name: "Keval Desai (matriculation no.400974494)"
     email: "kevaldesai0111@gmail.com"
     affiliations: Fresenius University of Applied Science
     corresponding: true
@@ -141,7 +141,7 @@ radiant::radiant()
 
 -   Limited to predefined workflows
 
-#  Conclusion
+# Conclusion
 
 In conclusion, Radiant is a great tool for people who want to do business data analysis without knowing how to code. It makes it easy to explore, visualize, and predict data while also showing the R code, so you can learn programming along the way. Even though it can be slow with very large datasets and doesn’t allow full customization like pure R, it is still very helpful for beginners. Overall, Radiant makes analyzing data easier and helps users make smart business decisions.
 

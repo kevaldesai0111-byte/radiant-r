@@ -3,7 +3,7 @@ title: "Interactive Business Analytics Using R and Shiny: The Radiant Package"
 
 author:
   - name: "Keval Desai (matriculation no.400974494)"
-    email: "desai.keval@stud.hs-fresenius.de"
+    email: "kevaldesai0111@gmail.com"
     affiliations: Fresenius University of Applied Science
     corresponding: true
 

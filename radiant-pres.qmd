@@ -1,6 +1,6 @@
 ---
 title: "Interactive Business Analytics Using R and Shiny: The Radiant Package"
-author: "KEVAL DESAI | desai.keval@stud.hs-fresenius.de | Matriculation: 400974494"
+author: "KEVAL DESAI |desai.keval@stud.hs-fresenius.de| Matriculation: 400974494"
 date: "November 26, 2025"
 institute: "Data Analysis for Decision-Making | Prof. Dr. Stephan Huber"
 format:
